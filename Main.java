@@ -57,7 +57,7 @@ public static void main(String[] args) {
 // print statment that simply says the name of your stufdent is then the students name
 int[ ] seatNumbers = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
 for(int a = 0; a < 15; a++){
-System.out.println("and they should sit at seat number " + seatNumbers[a]);
+System.out.println("and he/she should sit at seat number " + seatNumbers[a]);
 }
 int count = 15;
 while (count <= 15)
