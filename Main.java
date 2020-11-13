@@ -67,8 +67,6 @@ while (count <= 15)
        // 3. change the loop variable
        count++;
     }
- 
- 
 }
 }
 }
