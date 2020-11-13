@@ -58,3 +58,16 @@ public static void main(String[] args) {
 int[ ] seatNumbers = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
 for(int a = 0; a < 15; a++){
 System.out.println("and they should sit at seat number " + seatNumbers[a]);
+}
+int count = 15;
+while (count <= 15)
+    {
+       System.out.println("The next student is below");
+       // 3. change the loop variable
+       count++;
+    }
+ 
+ 
+}
+}
+}
