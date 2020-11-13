@@ -5,10 +5,10 @@ public static void main(String[] args) {
   //scanner
    System.out.println("What is the name of your 1st student?");
   String name1 = scan.next();
-  //1st kids name
+  //first students name
      System.out.println("What is the name of your 2nd student?");
   String name2 = scan.next();
-  //2nd kids name
+  //second kids name
      System.out.println("What is the name of your 3rd student?");
   String name3 = scan.next();
   //3rd kids name
@@ -48,16 +48,17 @@ public static void main(String[] args) {
      System.out.println("What is the name of your 15th student?");
   String name15 = scan.next();
   //15th kids name
- String[ ] studentNames = {name1, name2, name3, name4, name5, name6, name7, name8, name9, name10, name11, name12, name13, name14, name15};
+ 
+   String[ ] studentNames = {name1, name2, name3, name4, name5, name6, name7, name8, name9, name10, name11, name12, name13, name14, name15};
 // array to hold the input from the user
     for(int i = 0; i < 15; i++){
 // for loop that loops through and prints every element of the array
   System.out.println("The name of your student is " + studentNames[i]);
    
-// print statment that simply says the name of your stufdent is then the students name
+// print statement that simply says the name of your student is then the students name
 int[ ] seatNumbers = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
 for(int a = 0; a < 15; a++){
-System.out.println("and he/she should sit at seat number " + seatNumbers[a]);
+System.out.println("and they should sit at seat number " + seatNumbers[a]);
 }
 int count = 15;
 while (count <= 15)
@@ -71,3 +72,5 @@ while (count <= 15)
 }
 }
 }
+
+
