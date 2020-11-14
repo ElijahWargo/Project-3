@@ -60,3 +60,7 @@ String name15 = scan.next();
          while(count <= 14) {System.out.println(studentNames[count] + " Will sit in seat number" + seatNumbers[count]);
          count++;
          // while loop that prints the students names and seat numbers
+     }
+   }
+ }
+}
